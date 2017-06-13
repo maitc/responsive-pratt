@@ -30,7 +30,7 @@ body{
 /****TITLE****/
 .container-titulo{
 	background-color: #34495E;
-	height: 705px;
+	height: 843px;
 }
 .text-center h1, #pratt, .text-center p{
 	color: white;
@@ -48,10 +48,6 @@ body{
 	font-weight: 300;
 	font-size: 30px;
 }
-.img-principal{
-	width: 50%;
-}
-
 /********SECTION TWO*****/
 .second-section{
 	padding: 5em 0;
@@ -93,6 +89,7 @@ body{
 }
 .img-cuatro{
 	margin-left: 10px;
+	margin-bottom: 30px;
 }
 .ajuste-caja h3{
 	font-family: 'Raleway', sans-serif;
@@ -116,5 +113,70 @@ body{
 	padding-bottom: 15px;
 	padding-top: 10px;
 }
+/**FOURTH SECTION**/
+.fourth-section{
+	background-color: #34495E;
+}
+.ajuste-caja-cuatro h3{
+	color: white;
+	font-weight: 300;
+	padding-top: 100px;
+	padding-bottom: 20px;
+}
+.ajuste-caja-img{
+	padding-bottom: 70px;
+}
 
+/**FIFTH SECTION**/
+.fifth-section{
+	background-color: #2F2F2F;
+}
+.ajuste-formulario h3{
+	color: white;
+	font-weight: 300;
+	padding-top: 38px;
+} 
+.ajuste-formulario label{
+	display: block;
+	color: white;
+	font-weight: 300;
+}
+.ajuste-formulario input{
+	width: 80%;
+	border-radius: 5px;
+}
+.ajuste-formulario input[placeholder]{
+	padding-left: 10px;
+	font-weight: 300;
+}
+.ajuste-formulario textarea{
+	width: 80%;
+	border-radius: 5px;
+}
+.ajuste-formulario button{
+	background-color: #3bc492;
+	color: white;
+}
+.ajuste-contacto h3, .ajuste-contacto p{
+	color: white;
+	font-weight: 300;
+}
+.ajuste-contacto h3{
+	padding-top: 38px;
+}
+
+/**footer**/
+footer{
+	background-color: #222222;
+	padding: 15px;
+}
+.ajuste-footer p{
+	color: white;
+	font-weight: 300;
+	text-align: center;
+	padding-top: 5px;
+}
+.ajuste-footer p span{
+	color: #3bc492;
+}
 
